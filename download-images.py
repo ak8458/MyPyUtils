@@ -4,15 +4,15 @@ import requests
 import urllib.parse
 
 # Specify the path to the CSV file
-csv_path = '/Users/akshaypatil/Documents/work/projects/RH/temp/all-rte-images-en-us.csv'
+csv_path = '/Users/user/Documents/work/projects/RH/temp/all-rte-images-en-us.csv'
 #csv_path = '/Users/akshaypatil/Documents/work/projects/RH/temp/all-blog-feature-images-en-us.csv'
 
 # Specify the path to the folder where the images will be saved
-save_folder = '/Users/akshaypatil/Documents/work/projects/RH/temp/test-download'
+save_folder = '/Users/user/Documents/work/projects/RH/temp/test-download'
 #save_folder = '/Users/akshaypatil/Documents/work/projects/RH/temp/all-blog-feature-images-en-us'
 
 # Specify the path to the log file
-log_file = '/Users/akshaypatil/Documents/work/projects/RH/temp/file.log'
+log_file = '/Users/user/Documents/work/projects/RH/temp/file.log'
 
 # Open the CSV file and read the contents
 with open(csv_path, 'r') as csv_file:
